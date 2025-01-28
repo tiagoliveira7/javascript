@@ -26,13 +26,13 @@
         // Transformando o valor de (n1) em um valor mornetário, acrescentando a siglas da moeda antes do valor
         // (toLocaleString) informando a localização da string
         // ({style: 'currency') formatando o estilo para valor monetrário
-        // (currency: 'BRL') informando que o valor monetário será do Brasil
+        // (currency: 'valor monetário') informando qual o valor monetário desejado para a exibição
         document.writeln(`Em Real ${n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})} <br>`)
         document.writeln(`Em Dolar ${n1.toLocaleString('en-US', {style: 'currency', currency: 'USD'})} <br>`)
         document.writeln(`Em Euro ${n1.toLocaleString('it-IT', {style: 'currency', currency: 'EUR'})} <br>`)
 
         // Transforma o primeiro valor encontrado pelo valor informado
-        document.writeln(`Subistituindo um valor desejados... ${n1.toFixed(2).replace('.', ',')} nesse caso o (.) como acima por (,) <br>`)
+        document.writeln(`Subistituindo um valor desejados... ${n1.toFixed(2).replace('.', ',')} nesse caso o (.) como era acima por (,) <br>`)
     </script>
 </body>
 </html>
