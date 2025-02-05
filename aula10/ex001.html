@@ -21,9 +21,13 @@
         Interaja...
     </div>
     <script>
+        // vinculando o (a) ao elemento com id (area)
         var a = window.document.getElementById('area')
+        // colocando evento (chamada de funções) para quando clicar 
         a.addEventListener('click', clicar)
+        // colocando evento (chamada de funções) para quando passar com o mouse por cima
         a.addEventListener('mouseenter', entrar)
+        // colocando evento (chamada de funções) para quando dirar o mouse de cima
         a.addEventListener('mouseout', sair)
 
         function clicar(){
